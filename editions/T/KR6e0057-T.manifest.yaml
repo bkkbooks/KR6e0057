@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6e0057/T/v1
+canonical_location: https://kanripo.org/bkk/KR6e0057/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說大方廣菩薩十地經
+  identifiers:
+    krp: KR6e0057
+    cbeta: T10n0308
+    cbeta_old_id: T10n0308
+    authorityid: CA0002453
+    json_key: T0308
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T10/T10n0308.xml
+    old_id: T10n0308
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6e0057_000-T.yaml, hash: 'sha256:93fda1019de88912a99281e340f9cc5d266f8bc29db5881ff7fad5dbbdc5ead6'}
+  - {seq: 1, filename: KR6e0057_001-T.yaml, hash: 'sha256:c5bfb4dee4c29148de6ea6f3fdc9d028a8b3f1a023a873b8a19e2d9430edb9a0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6e0057_000-T.markers.yaml, hash: 'sha256:84c1fae1aa009343ebfb01dae6a3112ce11574a9951d3220d5a9de0b68a893a2'}
+  - {seq: 1, role: markers, filename: assets/KR6e0057_001-T.markers.yaml, hash: 'sha256:cb397e971f18bd0cb5e47b3dc7afe45a28a478d7084c1626fea358c78239ab37'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6e0057_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3180
+  label: 佛說大方廣菩薩十地經
+  type: juan
+  level: 1
+hash: sha256:9a65a54b00a788978583e29d4ae91828beaf0970091475f8f818f14ab2e5895b

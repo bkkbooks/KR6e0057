@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6e0057_000.yaml, hash: 'sha256:93fda1019de88912a99281e340f9cc5d266f8bc29db5881ff7fad5dbbdc5ead6'}
-  - {seq: 1, filename: KR6e0057_001.yaml, hash: 'sha256:bb9a391cabed9349de0778d70253cbb72d4651157f1611bcc7b73eed15763a87'}
+  - {seq: 1, filename: KR6e0057_001.yaml, hash: 'sha256:c5bfb4dee4c29148de6ea6f3fdc9d028a8b3f1a023a873b8a19e2d9430edb9a0'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6e0057_001.markers.yaml, hash: 'sha256:11ddfc584b8c587e4a1d1cb236db99fba14f1da01c19895790d5f3672ae47e35'}
+  - {seq: 0, role: markers, filename: assets/KR6e0057_000.markers.yaml, hash: 'sha256:9668b5f235106cf9794f43bdfaf73b2fa710474f76fa264147b36919e58278c8'}
+  - {seq: 1, role: markers, filename: assets/KR6e0057_001.markers.yaml, hash: 'sha256:c9dc10fb52bca432b81231b50da5299a9671c8c423f21e80e3dd6d9c8bcae8ff'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說大方廣菩薩十地經
   type: juan
   level: 1
-hash: sha256:56a4a089c891eb2319fcb0352235ddef85bde0f3e8a80b449a6001c4e30b5d15
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:5d28f60bf60b96d8a641991680dd9cc4dd8be95566b7112098f34c606071a3c4

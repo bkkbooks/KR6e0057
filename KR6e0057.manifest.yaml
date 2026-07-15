@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6e0057/v1
 canonical_location: https://kanripo.org/bkk/KR6e0057/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說大方廣菩薩十地經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6e0057_000.yaml, hash: 'sha256:93fda1019de88912a99281e340f9cc5d266f8bc29db5881ff7fad5dbbdc5ead6'}
-  - {seq: 1, filename: KR6e0057_001.yaml, hash: 'sha256:c5bfb4dee4c29148de6ea6f3fdc9d028a8b3f1a023a873b8a19e2d9430edb9a0'}
+  - {seq: 1, filename: KR6e0057_001.yaml, hash: 'sha256:d43e9e5c674e173897e221df5de499a0d58d6841eeac1e590d2ff829ef323321'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6e0057_000.markers.yaml, hash: 'sha256:9668b5f235106cf9794f43bdfaf73b2fa710474f76fa264147b36919e58278c8'}
-  - {seq: 1, role: markers, filename: assets/KR6e0057_001.markers.yaml, hash: 'sha256:c9dc10fb52bca432b81231b50da5299a9671c8c423f21e80e3dd6d9c8bcae8ff'}
+  - {seq: 1, role: markers, filename: assets/KR6e0057_001.markers.yaml, hash: 'sha256:e7de90fd6e45f322aa29c09a3a4b3ba55fd92d9ac769c7a5d8648dc02ecf9c1b'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 佛說大方廣菩薩十地經
   type: juan
   level: 1
-hash: sha256:5d28f60bf60b96d8a641991680dd9cc4dd8be95566b7112098f34c606071a3c4
+hash: sha256:e4ae7e88a4b4cd3383babde9bafd3daf34928ccb71865e8493cb29ef33ca74fb
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
